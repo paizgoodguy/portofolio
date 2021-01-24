@@ -1,20 +1,88 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>index page</title>
-  </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
 
+    <title>Home Page</title>
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+      }
+
+      .h1 {
+        font-family: "Fjalla One", sans-serif;
+        text-align: center;
+        margin: 9px 0px 0px 0px;
+      }
+
+      .title-color {
+        background-color: orange;
+        padding: 25px;
+      }
+
+      .link {
+        font-family: "Fjalla One", sans-serif;
+        color: crimson;
+        margin: 0px 20px 0px 0px;
+        font-size: 20px;
+        text-decoration: none;
+      }
+
+      .menu-posision {
+        float: right;
+      }
+
+      .title {
+        font-family: "Josefin Sans", sans-serif;
+        display: inline;
+        text-transform: uppercase;
+        color: black;
+      }
+
+      .header-desc {
+        font-size: 25px;
+        text-align: center;
+        margin: 0px;
+      }
+
+      .header-img-rounded {
+        border: 10px solid white;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 200px;
+        height: auto;
+        display: inline-block;
+      }
+
+      .header {
+        text-align: center;
+        background-color: rgb(35, 59, 190);
+        padding: 100px;
+      }
+    </style>
+  </head>
   <body>
-    <h1>this is why i love coffee</h1>
-    <br />
-    <h2>1. it keeps you awake</h2>
-    <p>
-      School always give you fuck ton of assignment and we usually do it at
-      night time. coffee can helps you to stay awake
-    </p>
-    <h2>2. it taste good</h2>
-    <p>its kinda bitter but you can add sugar or milk</p>
-    <p>or, you cyanide for some funny taste and effect</p>
-    <img src="meninggoy.jpeg" alt="orang mati" />
+    <nav class="title-color">
+      <div class="title">Faizal Azzam</div>
+      <div class="menu-posision">
+        <a class="link" href="#">about</a>
+        <a class="link" href="#">contact</a>
+      </div>
+    </nav>
+    <header class="header">
+      <div>
+        <img
+          src="every-day-we-stray-further-from-god-3368847 (2).jpg"
+          alt="profile"
+          class="header-img-rounded"
+        />
+      </div>
+      <h1 class="h1">Faizal Azzam</h1>
+      <p class="header-desc">pelajar rajin dan tidak sombong</p>
+    </header>
   </body>
 </html>
