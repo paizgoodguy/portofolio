@@ -22,7 +22,7 @@
       }
 
       .title-color {
-        background-color: orange;
+        background-color: rgb(228, 170, 64);
         padding: 25px;
       }
 
@@ -62,8 +62,43 @@
 
       .header {
         text-align: center;
-        background-color: rgb(35, 59, 190);
+        background-color: rgb(8, 8, 218);
         padding: 100px;
+      }
+
+      .portofolio {
+        max-width: 1000px;
+        margin: 100px auto;
+      }
+
+      .portofolio img {
+        width: auto;
+        height: 280px;
+        border-radius: 20px;
+      }
+
+      .portofolio h2 {
+        text-align: center;
+        font-size: 30 px;
+        margin: 30px;
+      }
+
+      .flex-grid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .flex-item {
+        flex-shrink: 1;
+        margin: 15px;
+        flex-basis: 280px;
+      }
+
+      .footer {
+        background-color: wheat;
+        padding: 30px;
+        text-align: center;
       }
     </style>
   </head>
@@ -84,7 +119,50 @@
         />
       </div>
       <h1 class="h1">Faizal Azzam</h1>
-      <p class="header-desc">pelajar rajin dan tidak sombong</p>
+      <p class="header-desc">pelajar</p>
     </header>
+    <section class="portofolio">
+      <h2>portofolio</h2>
+
+      <div class="flex-grid">
+        <div class="flex-item">
+          <a href="contack.html">
+            <img src="bookman.jpg" alt="bookman" />
+          </a>
+        </div>
+
+        <div class="flex-item">
+          <a href="contack.html">
+            <img src="bookman.jpg" alt="bookman" />
+          </a>
+        </div>
+
+        <div class="flex-item">
+          <a href="contack.html">
+            <img src="bookman.jpg" alt="bookman" />
+          </a>
+        </div>
+
+        <div class="flex-item">
+          <a href="contack.html">
+            <img src="bookman.jpg" alt="bookman" />
+          </a>
+        </div>
+
+        <div class="flex-item">
+          <a href="contack.html">
+            <img src="bookman.jpg" alt="bookman" />
+          </a>
+        </div>
+
+        <div class="flex-item">
+          <a href="contack.html">
+            <img src="bookman.jpg" alt="bookman" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">copyright &copy; 2021 - Faizal Azzam</footer>
   </body>
 </html>
